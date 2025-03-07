@@ -1,24 +1,18 @@
 # CS408 - Lab9.2
 
 ## Overview
+This project is an interactive **bouncing ball simulation** with an **evil circle** that the player can control to "eat" the bouncing balls. The game features:
 
-TODO: Write a project description
+- Object-oriented design with **Shape, Ball, and EvilCircle** classes.
+- Collision detection and movement physics.
+- A score counter that tracks the number of remaining balls.
+- Smooth player-controlled movement for the EvilCircle.
 
 ## Sources and Credits
+This project was built using JavaScript and the HTML5 Canvas API. External resources used:
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
+- Mozilla Developer Network (MDN) Canvas API: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
+- JavaScript Event Listeners Guide: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+- Random number generation and RGB color handling were inspired by common JavaScript coding patterns.
 
-A simple bulleted list below is sufficient. For example:
-
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+All other code was written from scratch as part of the lab assignment.
